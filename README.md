@@ -24,6 +24,7 @@ After experimenting, an ARIMA(1,1,1) configuration was selected as it provided s
 Separate ARIMA models were trained for each service category — Local Route, Light Rail, Peak Service, Rapid Route, and School. Once fitted, the model generated 7-day forecasts for future passenger counts. Along with the predictions, confidence intervals were also computed to represent the expected range of future values.
 
 5 Insights
+
   Weekly Passenger Journeys by Service Type:
   The weekly trend analysis shows fluctuations in passenger journeys across different service types, highlighting variations in travel demand throughout the week.
   
